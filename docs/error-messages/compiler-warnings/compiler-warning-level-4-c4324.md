@@ -15,7 +15,7 @@ Padding was added at the end of a class/struct/union because you specified an al
 
 ## Example
 
-For example, `S1` and `S2` generates C4324 because padding is added when the specified alignment is greater than the default alignment of `1` and `4` respectively:
+For example, `S1`, `S2`, `U1`, and `C1` generate C4324 because padding is added when the specified alignment is greater than the default alignment for each:
 
 ```cpp
 // C4324.cpp
